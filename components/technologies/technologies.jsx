@@ -4,6 +4,7 @@ import NextIcon from "@/public/Nextjs.png";
 import PostgreIcon from "@/public/Postgresql.png";
 import SassIcon from "@/public/sass.png";
 import BootstrapIcon from "@/public/Bootstrap.png";
+import FigmaIcon from "@/public/figma.png";
 import PhotoshopIcon from "@/public/Adobe_Photoshop.png";
 import IllustratorIcon from "@/public/Adobe_Illustrator.png";
 import Image from "next/image";
@@ -27,6 +28,12 @@ const Technologies = () => {
         src={PostgreIcon}
         alt="postgresql icon"
         width={50}
+        style={{ filter: "grayscale(1)" }}
+      />
+      <Image
+        src={FigmaIcon}
+        alt="figma icon"
+        width={35}
         style={{ filter: "grayscale(1)" }}
       />
       <Image

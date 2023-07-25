@@ -15,7 +15,7 @@ const Header = () => {
       </a>
       <h1>Portfolio.</h1>
       <div className={styles.icons}>
-        <a href="">
+        <a href="#portfolio">
           <FaFacebookF />
         </a>
         <a href="">

@@ -85,12 +85,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    gap: 7px;
+    width: 150px;
     border: 1px solid colors.$text-color;
     border-radius: 20px;
     padding: 7px 20px;
     margin-bottom: 20px;
     transition: ease-in .2s;
+    font-size: 1.2rem;
 
     &:hover {
         background-color: colors.$hover-color;

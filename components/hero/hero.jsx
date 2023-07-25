@@ -15,7 +15,7 @@ const Hero = () => {
           alt="next.js"
           width={100}
           height={100}
-          style={{ borderRadius: "100%" }}
+          style={{ borderRadius: "20px" }}
         />
         <h1>Jhon Doe</h1>
         <h2>Software Engineer</h2>

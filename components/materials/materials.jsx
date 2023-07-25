@@ -38,6 +38,10 @@ export const Mouse = () => {
   );
 };
 
-export const SectionTitle = ({ title }) => {
-  return <h3 className={styles.section_title}>{title}</h3>;
+export const SectionTitle = ({ title, icon }) => {
+  return (
+    <h3 className={styles.section_title}>
+      {icon} {title}
+    </h3>
+  );
 };

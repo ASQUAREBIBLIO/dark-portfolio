@@ -1,5 +1,6 @@
 import { SectionTitle } from "../materials/materials";
 import styles from "./resume.module.scss";
+import { FaBookOpen } from "react-icons/fa";
 
 const educationList = [
   {
@@ -27,8 +28,8 @@ const educationList = [
 
 const Resume = () => {
   return (
-    <div className={styles.resume_container}>
-      <SectionTitle title="Resume" />
+    <div className={styles.resume_container} id="resume">
+      <SectionTitle icon={<FaBookOpen />} title="Resume" />
       {educationList.map((education) => (
         <div key={education.id} className={styles.formation_card}>
           <h4>{education.formation}</h4>

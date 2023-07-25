@@ -1,0 +1,20 @@
+@use "@/templates/colors";
+
+.portfolio_container {
+    padding: 60px;
+
+    .projects_flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio_container {
+        .projects_flex {
+            flex-direction: column;
+        }
+    }
+}

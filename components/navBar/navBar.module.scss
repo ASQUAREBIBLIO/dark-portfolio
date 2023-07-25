@@ -1,0 +1,29 @@
+@use "@/templates/colors";
+
+.navBar {
+    position: fixed;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .navItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid colors.$text-color;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: colors.$primary-color;
+        box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;
+    }
+
+    .active {
+        background-color: colors.$hover-color;
+    }
+
+
+}

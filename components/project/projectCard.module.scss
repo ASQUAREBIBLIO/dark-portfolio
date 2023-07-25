@@ -1,0 +1,33 @@
+@use "@/templates/colors";
+
+.card {
+    width: calc(50% - 15px);
+    height: 400px;
+    position: relative;
+    border: 1px solid colors.$text-color;
+    border-radius: 10px;
+
+    .techs {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+
+        span {
+            background-color: colors.$primary-color;
+            border-radius: 20px;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
