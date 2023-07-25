@@ -1,0 +1,12 @@
+@use "../../templates/colors";
+
+.tech_container {
+    background-color: colors.$text-color;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}

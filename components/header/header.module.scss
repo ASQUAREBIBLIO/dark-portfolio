@@ -1,0 +1,32 @@
+@use "../../templates/colors";
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    a {
+        text-decoration: none;
+        transition: ease-in .2s;
+
+        &:hover {
+            color: colors.$hover-color;
+
+            :only-child() {
+                color: colors.$hover-color;
+            }
+        }
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid colors.$text-color;
+        border-radius: 20px;
+        padding: 7px 20px;
+    }
+
+}

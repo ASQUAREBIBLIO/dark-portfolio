@@ -1,0 +1,12 @@
+@use "../../templates/colors";
+
+.about_container {
+    padding: 60px;
+    background-color: colors.$primary-color;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}

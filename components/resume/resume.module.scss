@@ -1,0 +1,36 @@
+@use "@/templates/colors";
+
+.resume_container {
+    padding: 60px;
+
+    .formation_card {
+        position: relative;
+        margin-bottom: 10px;
+        padding: 5px 0 5px 50px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 20px solid colors.$text-color;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        strong,
+        p {
+            background: -webkit-linear-gradient(30deg, rgb(colors.$text-color, .5), colors.$text-color);
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
