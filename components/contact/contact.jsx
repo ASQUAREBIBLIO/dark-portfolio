@@ -27,7 +27,7 @@ const ContactForm = () => {
             <input
               type="text"
               id="fname"
-              placeholder="Enter your first name"
+              placeholder="Your first name"
               className={
                 onFocusClass == "fname"
                   ? `${styles.input_field} ${styles.input_field_focused}`
@@ -42,7 +42,7 @@ const ContactForm = () => {
             <input
               type="text"
               id="lname"
-              placeholder="Enter your last name"
+              placeholder="Your last name"
               className={
                 onFocusClass === "lname"
                   ? `${styles.input_field} ${styles.input_field_focused}`
@@ -59,7 +59,7 @@ const ContactForm = () => {
             <input
               type="email"
               id="email"
-              placeholder="Enter your email address"
+              placeholder="Your email address"
               className={
                 onFocusClass === "email"
                   ? `${styles.input_field} ${styles.input_field_focused}`
