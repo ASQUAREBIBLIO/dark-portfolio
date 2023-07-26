@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header/header";
 import styles from "./hero.module.scss";
 import NEXT from "@/public/profile_1.jpg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Arrow, Mouse } from "../materials/materials";
 
 const Hero = () => {

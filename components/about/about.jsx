@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { SectionTitle } from "../materials/materials";
 import styles from "./about.module.scss";
 import Profile from "@/public/profile_1.jpg";
@@ -12,7 +12,9 @@ const About = () => {
         <Image
           src={Profile}
           alt="next.js"
-          style={{ borderRadius: "20px", width: "100px", height: "100px" }}
+          width={300}
+          height={300}
+          style={{ borderRadius: "20px" }}
         />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu
