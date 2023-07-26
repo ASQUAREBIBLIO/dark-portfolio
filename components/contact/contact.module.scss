@@ -61,6 +61,8 @@
         .form_controll {
             >div {
                 width: 320px;
+                flex-direction: column;
+                gap: 0;
             }
         }
     }
