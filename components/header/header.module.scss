@@ -20,7 +20,8 @@
         }
     }
 
-    .icons {
+    .icons,
+    .email_link {
         display: flex;
         align-items: center;
         gap: 20px;
@@ -29,4 +30,19 @@
         padding: 7px 20px;
     }
 
+}
+
+@media (max-width: 768px) {
+    .header {
+        .email_link {
+            display: none;
+            overflow: hidden;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .header {
+        padding: 10px 0;
+    }
 }

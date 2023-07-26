@@ -13,8 +13,21 @@
 
 @media (max-width: 768px) {
     .portfolio_container {
+        padding: 30px;
+
         .projects_flex {
             flex-direction: column;
         }
+    }
+}
+
+@media (max-width: 426px) {
+    .portfolio_container {
+        padding: 20px 10px;
+
+        .projects_flex {
+            gap: 10px;
+        }
+
     }
 }

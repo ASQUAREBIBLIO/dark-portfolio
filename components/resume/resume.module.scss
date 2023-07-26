@@ -34,3 +34,15 @@
         }
     }
 }
+
+@media(max-width: 768px) {
+    .resume_container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .resume_container {
+        padding: 20px 10px;
+    }
+}

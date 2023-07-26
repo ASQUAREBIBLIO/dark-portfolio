@@ -10,3 +10,23 @@
         gap: 20px;
     }
 }
+
+@media(max-width: 768px) {
+    .about_container {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .about_container {
+        padding: 20px 10px;
+
+        div {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10px;
+        }
+    }
+}

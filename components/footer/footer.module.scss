@@ -1,0 +1,36 @@
+@use "@/templates/colors";
+
+.footer_container {
+    padding: 60px;
+    background-color: colors.$text-color;
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1,
+        p,
+        a {
+            color: colors.$primary-color;
+        }
+
+    }
+}
+
+@media(max-width: 768px) {
+    .footer_container {
+        padding: 30px;
+
+        >div {
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width: 426) {
+    .footer_container {
+        padding: 20px 10px;
+
+    }
+}

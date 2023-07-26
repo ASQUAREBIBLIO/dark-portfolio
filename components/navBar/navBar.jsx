@@ -2,6 +2,7 @@
 
 import {
   FaBookOpen,
+  FaPhone,
   FaQuestion,
   FaServicestack,
   FaWallet,
@@ -81,6 +82,16 @@ const NavBar = () => {
         }
       >
         <FaWallet />
+      </a>
+      <a
+        href="#contact"
+        className={
+          activeLink === "#contact"
+            ? `${styles.navItem} ${styles.active}`
+            : styles.navItem
+        }
+      >
+        <FaPhone />
       </a>
     </nav>
   );

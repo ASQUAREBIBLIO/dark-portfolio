@@ -12,7 +12,7 @@ const About = () => {
         <Image
           src={Profile}
           alt="next.js"
-          style={{ borderRadius: "20px", width: "220px", height: "80px" }}
+          style={{ borderRadius: "20px", width: "100px", height: "100px" }}
         />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu

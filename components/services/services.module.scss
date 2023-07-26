@@ -44,11 +44,17 @@
 
             &:hover {
                 border: 1px solid colors.$hover-color;
+                transform: scale(1.02);
+                transition: ease-in .2s;
 
                 .service_card_head {
 
                     h4 {
                         color: colors.$hover-color;
+                    }
+
+                    &_icon {
+                        color: red;
                     }
 
                 }
@@ -65,5 +71,25 @@
 
     100% {
         background: colors.$text-color;
+    }
+}
+
+@media(max-width: 768px) {
+    .services_container {
+        padding: 30px;
+
+        .services_flex {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .services_container {
+        padding: 20px 10px;
+
+        .services_flex {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }

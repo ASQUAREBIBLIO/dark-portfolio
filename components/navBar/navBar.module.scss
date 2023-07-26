@@ -19,6 +19,11 @@
         padding: 10px;
         background-color: colors.$primary-color;
         box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;
+        transition: ease-in .2s;
+
+        &:hover {
+            background-color: colors.$hover-color;
+        }
     }
 
     .active {
@@ -26,4 +31,16 @@
     }
 
 
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        right: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .navBar {
+        right: 10px;
+    }
 }

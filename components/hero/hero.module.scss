@@ -78,3 +78,51 @@
         background: colors.$text-color;
     }
 }
+
+@media(max-width: 768px) {
+    .hero {
+        padding: 30px;
+
+        &_container {
+            h1 {
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            .stats_content {
+                div {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .hero {
+        padding: 10px;
+
+        &_container {
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .stats_content {
+                div {
+                    h3 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -10,3 +10,15 @@
     overflow: auto;
     white-space: nowrap;
 }
+
+@media(max-width: 768px) {
+    .tech_container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .tech_container {
+        padding: 20px 10px;
+    }
+}

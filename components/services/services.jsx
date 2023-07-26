@@ -1,6 +1,8 @@
+import React from "react";
 import { SectionTitle } from "../materials/materials";
 import styles from "./services.module.scss";
-import { FaServicestack, FaCode, FaTools, FaPaintBrush } from "react-icons/fa";
+import { FaServicestack, FaCode, FaPaintBrush } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const services = [
   {

@@ -10,7 +10,7 @@ import {
 const Header = () => {
   return (
     <div className={styles.header}>
-      <a href="mailto:a.contact@astore.ma" className={styles.icons}>
+      <a href="mailto:a.contact@astore.ma" className={styles.email_link}>
         a.contact@astore.ma
       </a>
       <h1>Portfolio.</h1>
