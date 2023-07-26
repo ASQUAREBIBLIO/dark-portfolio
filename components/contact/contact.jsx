@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { SectionTitle } from "../materials/materials";
 import styles from "./contact.module.scss";
-import { FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaPaperPlane, FaPhone } from "react-icons/fa";
 
 const ContactForm = () => {
   const [onFocusClass, setOnFocusClass] = useState("");
@@ -70,11 +70,17 @@ const ContactForm = () => {
             />
           </div>
         </div>
+
         <div>
           <div className={styles.field_controll}>
             <label htmlFor="message">Your Message</label>
             <textarea id="message" placeholder="Leave us a message..." />
           </div>
+        </div>
+        <div>
+          <button>
+            Send <FaPaperPlane />
+          </button>
         </div>
       </div>
     </div>
